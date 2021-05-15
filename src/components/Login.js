@@ -1,5 +1,5 @@
 import React, {useState}from 'react';
-import cat from "../images/cat.jpg";
+import Inq from "../images/inquizitive.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faKey, faUser } from '@fortawesome/free-solid-svg-icons'
 import './Login.css';
@@ -38,7 +38,7 @@ const Login = () => {
                 <div className="user_card">
                   <div className="d-flex justify-content-center">
                     <div className="brand_logo_container">
-                      <img src={cat} className="brand_logo" alt="Logo" />
+                      <img src={Inq} className="brand_logo" alt="Logo" />
                     </div>
                   </div>
                   <div className="form_container">
